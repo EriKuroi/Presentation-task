@@ -1,49 +1,231 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+	<title>reveal.js</title>
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/night.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/monokai.css">
 
-		<script src="js/reveal.js"></script>
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
-			});
-		</script>
-	</body>
+<body>
+	<div class="reveal">
+		<s class="slides">
+			<section data-background-image="assets/Open-Source.jpg">
+
+			</section>
+			<section data-background-image="assets/HardyHeron.jpg">
+				<h3>Hardy Heron</h3>
+			</section>
+			<section data-background="white" data-transition="fade-in slide-out" data-transition-speed="slow">
+				<img src="assets/wow.jpg" />
+			</section>
+			<section data-background="white">
+				<img src="assets/ubuntu-logo.jpg" />
+				<aside class="notes">
+					“Ubuntu” - ‘humanity to others’, mission - to deliver the worlds free software, freely, to everybody
+					on the same terms
+				</aside>
+			</section>
+			<section data-background="assets/redhat.png" data-background-size="contain">
+
+			</section>
+
+			<section data-background-image="assets/monopoly.jpg" data-background-opacity="0.5">
+				<h2>All hail monopoly!</h2>
+			</section>
+			<section data-background-image="assets/AT&T_Logo.jpeg">
+				<aside class="notes">
+					founded by Alexander Graham Bell in 1880
+				</aside>
+			</section>
+			<section>
+				<img src="assets/unix3.jpg" alt="">
+				<h3>UNIX</h3>
+				<img class="fragment fade-in" src="assets/bsd.jpg">
+				<img class="fragment fade-in" src="assets/gnu.png">
+				<aside class="notes">
+					in 1980s led to genesis of 2 сurrents
+				</aside>
+			</section>
+			<section data-background="assets/linux.jpg">
+				<img class="fragment fade-out" src="assets/linus.gif" width="120%">
+				<aside class="notes">
+					in 1991 Linus Torvalds presented operating system kernel - Linux. After release in september, Linux
+					rapidly attracted developers and users who adopted it as the kernel for other free software projects
+				</aside>
+			</section>
+			<section>
+				<h4>Open source initiative</h4>
+				<p class="fragment fade-in">"as an educational, advocacy, and stewardship organization at a cusp moment
+					in the history of that culture."</p>
+				<aside class="notes">
+					in 1998, Bruce Perens and Eric Raymond founded an organization called Open Source Initiative "as an
+					educational, advocacy, and stewardship organization at a cusp moment in the history of that
+					culture."[
+
+				</aside>
+			</section>
+			<section data-background-image="assets/Court-Gavel.jpg" data-background-opacity="0.5">
+				<h2>
+					Legal issues
+				</h2>
+				<aside class="notes">
+					open-source movement has faced a number of legal challenges.
+				</aside>
+			</section>
+			<section>
+				<section data-background-image="assets/licenses.png" data-background-size="contain"></section>
+				<section data-background-image="assets/wtfpl.jpg" data-background-size="contain">
+					<aside class="notes">
+						it may lead to the situation, when a company using your code under WTFPL may sue you for
+						publication of your code, which they include in their proprietary project.
+					</aside>
+				</section>
+			</section>
+			<section data-background-image="assets/div.jpeg" data-background-opacity="0.5">
+				<h2>Gender Diversity in Open Source</h2>
+			</section>
+
+			<section>
+				<p>Women in open source</p>
+				<img src="assets/womenOS.png" alt="" width="50%">
+				<aside class="notes">
+					a study for the European Union on free and open-source software communities held in 2002
+				</aside>
+
+			</section>
+			<section>
+				<p>Women in tech professions</p>
+				<img src="assets/womenIT.png" alt="" width="50%">
+				<aside class="notes">
+					a study in 2015 found that open-source teams with a more even mix of different genders tended to be
+					more highly productive.
+				</aside>
+			</section>
+			<section data-background-image="assets/meritocracy.jpg" data-background-size="contain">
+				<aside class="notes">
+					because the software is built and maintained on the merit of individual code contributions,
+					open-source communities should act as a meritocracy.
+					Thus proposing changes to the community based on gender go against the ideal of a meritocracy by
+					targeting certain programmers not based on their skill alone.
+				</aside>
+			</section>
+			<section>
+				<img src="assets/gitgirl.jpg" alt="">
+				<aside class="notes">
+					A 2016 study identified the gender of over one million programmers on GitHub, by linking the
+					programmer’s GitHub account to their other social media accounts.
+				</aside>
+			</section>
+			<section><img src="assets/nogitgirl.jpg" alt=""></section>
+			<section data-background-image="assets/fail.jpg" data-background-opacity="0.5">
+				<h2>Open source failed</h2>
+				<aside class="notes">
+					“failure” refers not to any technical achievements but rather to the lack of social ones.
+				</aside>
+			</section>
+			<section data-background-image="assets/OpenSwissKnife.jpg">
+				<aside class="notes">
+					The creation of the open-source movement has created a degree of global computing access.
+					To say that open source contributed to the overall innovation of the world would be a shameful
+					understatement.
+					Open source was about the democratization of software and was supposed to smash so-called “digital
+					divide”. That premise was entirely false.
+				</aside>
+			</section>
+			<section>
+				<img src="assets/amazon.png" class="fragment slide-in" style="border: none">
+				<img src="assets/facebook.png" class="fragment slide-in" width="27%" style="border: none">
+				<img src="assets/google.png" class="fragment slide-in" width="27%" style="border: none">
+				<span class="fragment fade-in">
+					<span class="fragment fade-out">
+						<img src="assets/Microsoft.png" width="25%" style="border: none">
+					</span>
+				</span>
+				<aside class="notes">
+					They all built their entire business model on open source software, and they have paid very little
+					in license fees to software vendors.
+					receive the lions’ share of money, forming a part of the 10% of earners leaving everyone beyond.
+				</aside>
+			</section>
+
+			<section>
+				<img src="assets/tweet1.png" width="40%">
+				<img src="assets/tweet2.png" width="40%">
+				<aside class="notes">
+					“Almost all of the increase in income inequality from 1978 to the present can be accounted for by
+					the difference in wages between top performing firms and everyone else.”
+				</aside>
+			</section>
+			<section>
+				<h3>Open source software is used by large tech companies to concentrate wealth and power</h3>
+				<aside class="notes">
+					To be an open source proponent without acknowledging this is to be a very useful fool.
+				</aside>
+			</section>
+			<section data-background-image="assets/future.jpg" data-background-opacity="0.5">
+				<h2>Open source is a future</h2>
+				<aside class="notes">
+					If we’re able to solve this in terms of open source sustainability, we will have provided a
+					blueprint for solving capitalism’s inequality crisis and saving society itself.
+				</aside>
+			</section>
+			<section data-background-image="assets/OpenSourceOverTime.png" data-background-size="contain">
+				<aside class="notes">
+					In a 2016 survey from Blackduck, 96% of software products developed that year used open source
+					software.
+					I don’t know how to calculate the total value of open source software to the world, but I do know
+					that if open source software suddenly went away, the results would be catastrophic, an existential
+					crisis for humanity.
+				</aside>
+			</section>
+			<section data-background-image="assets/may-the-source-be-with-you.jpg" data-background-size="contain"
+				data-background="white"></section>
+
+	</div>
+	</div>
+
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [{
+					src: 'plugin/markdown/marked.js'
+				},
+				{
+					src: 'plugin/markdown/markdown.js'
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true
+				}
+			]
+		});
+	</script>
+</body>
+
 </html>
